@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <title>General Store Inventory Management Using JavaScript</title>
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+    <header>
+        <h1>General Store Inventory Management</h1>
+    </header>
+
+    <section class="container">
+        <form id="my-form"> 
+          <h3>Add Product Details</h3>  
+          <div class="msg"></div>
+          <div>
+            <label for="item">Item Name:</label>
+            <input type="text" id="item">
+          </div>
+          <div>
+            <label for="details">Item Description:</label>
+            <input type="text" id="details">
+          </div>
+          <div>
+            <label for="price">Item Price (Rs.):</label>
+            <input type="number" id="price">
+          </div>
+          <div>
+            <label for="quantity">Item Quantity:</label>
+            <input type="number" id="quantity">
+          </div>
+          <input class="btn" type="submit" value="Add Item">
+        </form>
+  
+        <ul id="users"></ul>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"> </script>
+  
+        <ul class="items"> </ul>
+      </section>
+      
+  
+      <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+  }
+  
+  ul {
+    list-style:lower-alpha;
+  }
+  
+  ul li {
+    padding: 5px;
+    background: #f4f4f4;
+    margin: 5px 0;
+  }
+  
+  header {
+    background: yellowgreen;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .container {
+    margin: auto;
+    width: 500px;
+    overflow: auto;
+    padding: 3rem 2rem;
+  }
+  
+  #my-form {
+    padding: 2rem;
+    background: #f4f4f4;
+  }
+  
+  #my-form label {
+    display: block;
+  }
+  
+  #my-form input[type='text'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  #my-form input[type='number'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  #my-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .btn1 {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    background: #23db4b;
+    color: #0a0808;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .btn2 {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    background: #23db4b;
+    color: #0a0808;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .btn5 {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    background: #23db4b;
+    color: #0a0808;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .delete { 
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    background: red;
+    color: #0a0808;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .btn:hover {
+    background: #444;
+    cursor: pointer; 
+  }
+
+  .btn1:hover { 
+    background: #06741d;
+    cursor: pointer;
+  }
+
+  .btn2:hover {
+    background: #06741d;
+    cursor: pointer;
+  }
+
+  .btn5:hover {
+    background: #06741d;
+    cursor: pointer;
+  }
+
+  .delete:hover {
+    background: #d35a51;
+    cursor: pointer;
+  }
+  
+  .bg-dark {
+    background: #333;
+    color: #fff;
+  }
+  
+  .error {
+    background: white;
+    color: red;
+    padding: 5px;
+    margin: 5px;
+  }
